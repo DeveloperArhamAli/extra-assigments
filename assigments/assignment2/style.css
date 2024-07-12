@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+.head{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.head p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head a{
+    text-decoration: underline;
+    color: #000000;
+    transition: .8s;
+}
+
+.head a:hover{
+    text-decoration: underline;
+}
+
+.head h3{
+    margin-top: 50px;
+}
+
+.name{
+    margin-top: 50px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 2px solid #000000;
+    padding: 0 30px;
+}
+
+.nav a{
+    text-decoration: underline;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .8s;
+}
+
+.assigments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.assigments a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .8s;
+}
+
+.assigments a:hover{
+    text-decoration: underline;
+}
